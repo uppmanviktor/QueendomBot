@@ -42,4 +42,4 @@ async def on_message(message):
   if message.content.startswith('&test'):
     await message.channel.send('Test completed')
 
-client.run('BOT_TOKEN')
+client.run(BOT_TOKEN)
